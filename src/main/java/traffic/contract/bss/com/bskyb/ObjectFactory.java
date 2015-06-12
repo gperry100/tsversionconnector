@@ -46,43 +46,30 @@ public class ObjectFactory {
     private final static QName _ArrayOfMAMRequest_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "ArrayOfMAMRequest");
     private final static QName _VersionVoiceOver_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "VersionVoiceOver");
     private final static QName _ClosedCaption_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "ClosedCaption");
-    private final static QName _ClosedCaptionCaptionApproved_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "CaptionApproved");
-    private final static QName _ClosedCaptionCaptionEmbedded_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "CaptionEmbedded");
-    private final static QName _ClosedCaptionReceivedDate_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "ReceivedDate");
-    private final static QName _ClosedCaptionCaptionRequired_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "CaptionRequired");
-    private final static QName _QualityControlQCStatus_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "QCStatus");
-    private final static QName _QualityControlQCSignedOff_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "QCSignedOff");
-    private final static QName _QualityControlQCConclusionUser_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "QCConclusionUser");
-    private final static QName _QualityControlQCStatusDate_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "QCStatusDate");
-    private final static QName _QualityControlQCLevel_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "QCLevel");
-    private final static QName _QualityControlQCConclusion_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "QCConclusion");
-    private final static QName _KeywordDescription_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "Description");
-    private final static QName _KeywordCode_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "Code");
-    private final static QName _AudioDescriptionAudioApproved_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "AudioApproved");
-    private final static QName _AudioDescriptionAudioEmbedded_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "AudioEmbedded");
-    private final static QName _AudioDescriptionAudioRequired_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "AudioRequired");
+    private final static QName _PurchaseMaterialStatusDeliveryReferenceID_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "DeliveryReferenceID");
+    private final static QName _PurchaseMaterialStatusDeliveryDate_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "DeliveryDate");
+    private final static QName _MaterialReelActive_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "Active");
+    private final static QName _MaterialReelReelNo_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "ReelNo");
+    private final static QName _MaterialReelFormat_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "Format");
+    private final static QName _MaterialReelTapeTypeID_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "TapeTypeID");
+    private final static QName _MaterialReelMediaMatched_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "MediaMatched");
+    private final static QName _MaterialReelMediaID_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "MediaID");
+    private final static QName _MaterialReelLocation_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "Location");
+    private final static QName _MaterialReelTotalReels_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "TotalReels");
     private final static QName _MaterialPartStartOfPart_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "StartOfPart");
     private final static QName _MaterialPartDuration_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "Duration");
     private final static QName _MaterialPartEndOfPart_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "EndOfPart");
     private final static QName _MaterialPartDurationFrame_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "DurationFrame");
     private final static QName _MaterialPartStartTimeFrame_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "StartTimeFrame");
-    private final static QName _MaterialPartMediaID_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "MediaID");
     private final static QName _MaterialPartSegmentTitle_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "SegmentTitle");
     private final static QName _MaterialPartStartTime_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "StartTime");
     private final static QName _MaterialPartPartNo_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "PartNo");
-    private final static QName _VersionAspectRatio_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "AspectRatio");
-    private final static QName _VersionVersionSeqNo_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "VersionSeqNo");
-    private final static QName _VersionHighDefinition_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "HighDefinition");
-    private final static QName _VersionHighDefinitionResolution_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "HighDefinitionResolution");
-    private final static QName _VersionTitleID_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "TitleID");
-    private final static QName _VersionVersionName_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "VersionName");
-    private final static QName _VersionSubTitles_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "SubTitles");
-    private final static QName _VersionColour_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "Colour");
-    private final static QName _VersionAudio_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "Audio");
-    private final static QName _VersionVersionID_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "VersionID");
-    private final static QName _VersionTXStatus_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "TXStatus");
-    private final static QName _MaterialType_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "Type");
-    private final static QName _MaterialMaterialID_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "MaterialID");
+    private final static QName _EditorialStatusEditSignoff_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "EditSignoff");
+    private final static QName _EditorialStatusEditCompleteDate_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "EditCompleteDate");
+    private final static QName _EditorialStatusEditComplete_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "EditComplete");
+    private final static QName _EditorialStatusEditSignoffDate_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "EditSignoffDate");
+    private final static QName _KeywordDescription_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "Description");
+    private final static QName _KeywordCode_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "Code");
     private final static QName _MaterialMetaDataArrivalDate_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "ArrivalDate");
     private final static QName _MaterialMetaDataSeriesName_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "SeriesName");
     private final static QName _MaterialMetaDataFileName_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "FileName");
@@ -94,15 +81,33 @@ public class ObjectFactory {
     private final static QName _MaterialMetaDataDeliveryChannelGroup_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "DeliveryChannelGroup");
     private final static QName _MaterialMetaDataTemporaryMAMID_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "TemporaryMAMID");
     private final static QName _MaterialMetaDataEpisodeNo_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "EpisodeNo");
-    private final static QName _MaterialReelActive_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "Active");
-    private final static QName _MaterialReelReelNo_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "ReelNo");
-    private final static QName _MaterialReelFormat_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "Format");
-    private final static QName _MaterialReelTapeTypeID_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "TapeTypeID");
-    private final static QName _MaterialReelMediaMatched_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "MediaMatched");
-    private final static QName _MaterialReelLocation_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "Location");
-    private final static QName _MaterialReelTotalReels_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "TotalReels");
-    private final static QName _PurchaseMaterialStatusDeliveryReferenceID_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "DeliveryReferenceID");
-    private final static QName _PurchaseMaterialStatusDeliveryDate_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "DeliveryDate");
+    private final static QName _ClosedCaptionCaptionApproved_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "CaptionApproved");
+    private final static QName _ClosedCaptionCaptionEmbedded_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "CaptionEmbedded");
+    private final static QName _ClosedCaptionReceivedDate_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "ReceivedDate");
+    private final static QName _ClosedCaptionCaptionRequired_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "CaptionRequired");
+    private final static QName _MaterialType_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "Type");
+    private final static QName _MaterialMaterialID_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "MaterialID");
+    private final static QName _MaterialVersionID_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "VersionID");
+    private final static QName _VersionAspectRatio_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "AspectRatio");
+    private final static QName _VersionVersionSeqNo_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "VersionSeqNo");
+    private final static QName _VersionHighDefinition_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "HighDefinition");
+    private final static QName _VersionHighDefinitionResolution_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "HighDefinitionResolution");
+    private final static QName _VersionTitleID_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "TitleID");
+    private final static QName _VersionVersionName_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "VersionName");
+    private final static QName _VersionSubTitles_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "SubTitles");
+    private final static QName _VersionColour_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "Colour");
+    private final static QName _VersionAudio_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "Audio");
+    private final static QName _VersionTXStatus_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "TXStatus");
+    private final static QName _AudioDescriptionAudioApproved_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "AudioApproved");
+    private final static QName _AudioDescriptionAudioEmbedded_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "AudioEmbedded");
+    private final static QName _AudioDescriptionAudioRequired_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "AudioRequired");
+    private final static QName _CertificationFlashingImages_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "FlashingImages");
+    private final static QName _CertificationCertificationCode_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "CertificationCode");
+    private final static QName _CertificationMatureTheme_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "MatureTheme");
+    private final static QName _CertificationViolence_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "Violence");
+    private final static QName _CertificationSex_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "Sex");
+    private final static QName _CertificationLanguage_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "Language");
+    private final static QName _CertificationCertificateConfirm_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "CertificateConfirm");
     private final static QName _VersionVoiceOverEndCreditsUpTCFrames_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "EndCreditsUpTCFrames");
     private final static QName _VersionVoiceOverEndCreditsUpTC_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "EndCreditsUpTC");
     private final static QName _VersionVoiceOverVoiceOverPossible_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "VoiceOverPossible");
@@ -125,17 +130,12 @@ public class ObjectFactory {
     private final static QName _MAMRequestRequestedForUser_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "RequestedForUser");
     private final static QName _MAMRequestLevel_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "Level");
     private final static QName _MAMRequestNoOfOutgestItems_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "NoOfOutgestItems");
-    private final static QName _CertificationFlashingImages_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "FlashingImages");
-    private final static QName _CertificationCertificationCode_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "CertificationCode");
-    private final static QName _CertificationMatureTheme_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "MatureTheme");
-    private final static QName _CertificationViolence_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "Violence");
-    private final static QName _CertificationSex_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "Sex");
-    private final static QName _CertificationLanguage_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "Language");
-    private final static QName _CertificationCertificateConfirm_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "CertificateConfirm");
-    private final static QName _EditorialStatusEditSignoff_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "EditSignoff");
-    private final static QName _EditorialStatusEditCompleteDate_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "EditCompleteDate");
-    private final static QName _EditorialStatusEditComplete_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "EditComplete");
-    private final static QName _EditorialStatusEditSignoffDate_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "EditSignoffDate");
+    private final static QName _QualityControlQCStatus_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "QCStatus");
+    private final static QName _QualityControlQCSignedOff_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "QCSignedOff");
+    private final static QName _QualityControlQCConclusionUser_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "QCConclusionUser");
+    private final static QName _QualityControlQCStatusDate_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "QCStatusDate");
+    private final static QName _QualityControlQCLevel_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "QCLevel");
+    private final static QName _QualityControlQCConclusion_QNAME = new QName("http://BSkyB.com.BSS.Contract.Traffic", "QCConclusion");
 
     /**
      * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: traffic.contract.bss.com.bskyb
@@ -502,147 +502,111 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Boolean }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "CaptionApproved", scope = ClosedCaption.class)
-    public JAXBElement<Boolean> createClosedCaptionCaptionApproved(Boolean value) {
-        return new JAXBElement<Boolean>(_ClosedCaptionCaptionApproved_QNAME, Boolean.class, ClosedCaption.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Boolean }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "CaptionEmbedded", scope = ClosedCaption.class)
-    public JAXBElement<Boolean> createClosedCaptionCaptionEmbedded(Boolean value) {
-        return new JAXBElement<Boolean>(_ClosedCaptionCaptionEmbedded_QNAME, Boolean.class, ClosedCaption.class, value);
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "DeliveryReferenceID", scope = PurchaseMaterialStatus.class)
+    public JAXBElement<String> createPurchaseMaterialStatusDeliveryReferenceID(String value) {
+        return new JAXBElement<String>(_PurchaseMaterialStatusDeliveryReferenceID_QNAME, String.class, PurchaseMaterialStatus.class, value);
     }
 
     /**
      * Create an instance of {@link JAXBElement }{@code <}{@link XMLGregorianCalendar }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "ReceivedDate", scope = ClosedCaption.class)
-    public JAXBElement<XMLGregorianCalendar> createClosedCaptionReceivedDate(XMLGregorianCalendar value) {
-        return new JAXBElement<XMLGregorianCalendar>(_ClosedCaptionReceivedDate_QNAME, XMLGregorianCalendar.class, ClosedCaption.class, value);
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "DeliveryDate", scope = PurchaseMaterialStatus.class)
+    public JAXBElement<XMLGregorianCalendar> createPurchaseMaterialStatusDeliveryDate(XMLGregorianCalendar value) {
+        return new JAXBElement<XMLGregorianCalendar>(_PurchaseMaterialStatusDeliveryDate_QNAME, XMLGregorianCalendar.class, PurchaseMaterialStatus.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link MaterialMetaData }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "MaterialMetaData", scope = MaterialReel.class)
+    public JAXBElement<MaterialMetaData> createMaterialReelMaterialMetaData(MaterialMetaData value) {
+        return new JAXBElement<MaterialMetaData>(_MaterialMetaData_QNAME, MaterialMetaData.class, MaterialReel.class, value);
     }
 
     /**
      * Create an instance of {@link JAXBElement }{@code <}{@link Boolean }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "CaptionRequired", scope = ClosedCaption.class)
-    public JAXBElement<Boolean> createClosedCaptionCaptionRequired(Boolean value) {
-        return new JAXBElement<Boolean>(_ClosedCaptionCaptionRequired_QNAME, Boolean.class, ClosedCaption.class, value);
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "Active", scope = MaterialReel.class)
+    public JAXBElement<Boolean> createMaterialReelActive(Boolean value) {
+        return new JAXBElement<Boolean>(_MaterialReelActive_QNAME, Boolean.class, MaterialReel.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "ReelNo", scope = MaterialReel.class)
+    public JAXBElement<Integer> createMaterialReelReelNo(Integer value) {
+        return new JAXBElement<Integer>(_MaterialReelReelNo_QNAME, Integer.class, MaterialReel.class, value);
     }
 
     /**
      * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "QCStatus", scope = QualityControl.class)
-    public JAXBElement<String> createQualityControlQCStatus(String value) {
-        return new JAXBElement<String>(_QualityControlQCStatus_QNAME, String.class, QualityControl.class, value);
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "Format", scope = MaterialReel.class)
+    public JAXBElement<String> createMaterialReelFormat(String value) {
+        return new JAXBElement<String>(_MaterialReelFormat_QNAME, String.class, MaterialReel.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Boolean }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ArrayOfMaterialPart }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "QCSignedOff", scope = QualityControl.class)
-    public JAXBElement<Boolean> createQualityControlQCSignedOff(Boolean value) {
-        return new JAXBElement<Boolean>(_QualityControlQCSignedOff_QNAME, Boolean.class, QualityControl.class, value);
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "MaterialPart", scope = MaterialReel.class)
+    public JAXBElement<ArrayOfMaterialPart> createMaterialReelMaterialPart(ArrayOfMaterialPart value) {
+        return new JAXBElement<ArrayOfMaterialPart>(_MaterialPart_QNAME, ArrayOfMaterialPart.class, MaterialReel.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "QCConclusionUser", scope = QualityControl.class)
-    public JAXBElement<String> createQualityControlQCConclusionUser(String value) {
-        return new JAXBElement<String>(_QualityControlQCConclusionUser_QNAME, String.class, QualityControl.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link XMLGregorianCalendar }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "QCStatusDate", scope = QualityControl.class)
-    public JAXBElement<XMLGregorianCalendar> createQualityControlQCStatusDate(XMLGregorianCalendar value) {
-        return new JAXBElement<XMLGregorianCalendar>(_QualityControlQCStatusDate_QNAME, XMLGregorianCalendar.class, QualityControl.class, value);
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "TapeTypeID", scope = MaterialReel.class)
+    public JAXBElement<Integer> createMaterialReelTapeTypeID(Integer value) {
+        return new JAXBElement<Integer>(_MaterialReelTapeTypeID_QNAME, Integer.class, MaterialReel.class, value);
     }
 
     /**
      * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "QCLevel", scope = QualityControl.class)
-    public JAXBElement<String> createQualityControlQCLevel(String value) {
-        return new JAXBElement<String>(_QualityControlQCLevel_QNAME, String.class, QualityControl.class, value);
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "MediaMatched", scope = MaterialReel.class)
+    public JAXBElement<String> createMaterialReelMediaMatched(String value) {
+        return new JAXBElement<String>(_MaterialReelMediaMatched_QNAME, String.class, MaterialReel.class, value);
     }
 
     /**
      * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "QCConclusion", scope = QualityControl.class)
-    public JAXBElement<String> createQualityControlQCConclusion(String value) {
-        return new JAXBElement<String>(_QualityControlQCConclusion_QNAME, String.class, QualityControl.class, value);
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "MediaID", scope = MaterialReel.class)
+    public JAXBElement<String> createMaterialReelMediaID(String value) {
+        return new JAXBElement<String>(_MaterialReelMediaID_QNAME, String.class, MaterialReel.class, value);
     }
 
     /**
      * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "Description", scope = Keyword.class)
-    public JAXBElement<String> createKeywordDescription(String value) {
-        return new JAXBElement<String>(_KeywordDescription_QNAME, String.class, Keyword.class, value);
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "Location", scope = MaterialReel.class)
+    public JAXBElement<String> createMaterialReelLocation(String value) {
+        return new JAXBElement<String>(_MaterialReelLocation_QNAME, String.class, MaterialReel.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "Code", scope = Keyword.class)
-    public JAXBElement<String> createKeywordCode(String value) {
-        return new JAXBElement<String>(_KeywordCode_QNAME, String.class, Keyword.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Boolean }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "AudioApproved", scope = AudioDescription.class)
-    public JAXBElement<Boolean> createAudioDescriptionAudioApproved(Boolean value) {
-        return new JAXBElement<Boolean>(_AudioDescriptionAudioApproved_QNAME, Boolean.class, AudioDescription.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Boolean }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "AudioEmbedded", scope = AudioDescription.class)
-    public JAXBElement<Boolean> createAudioDescriptionAudioEmbedded(Boolean value) {
-        return new JAXBElement<Boolean>(_AudioDescriptionAudioEmbedded_QNAME, Boolean.class, AudioDescription.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link XMLGregorianCalendar }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "ReceivedDate", scope = AudioDescription.class)
-    public JAXBElement<XMLGregorianCalendar> createAudioDescriptionReceivedDate(XMLGregorianCalendar value) {
-        return new JAXBElement<XMLGregorianCalendar>(_ClosedCaptionReceivedDate_QNAME, XMLGregorianCalendar.class, AudioDescription.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Boolean }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "AudioRequired", scope = AudioDescription.class)
-    public JAXBElement<Boolean> createAudioDescriptionAudioRequired(Boolean value) {
-        return new JAXBElement<Boolean>(_AudioDescriptionAudioRequired_QNAME, Boolean.class, AudioDescription.class, value);
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "TotalReels", scope = MaterialReel.class)
+    public JAXBElement<Integer> createMaterialReelTotalReels(Integer value) {
+        return new JAXBElement<Integer>(_MaterialReelTotalReels_QNAME, Integer.class, MaterialReel.class, value);
     }
 
     /**
@@ -696,7 +660,7 @@ public class ObjectFactory {
      */
     @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "MediaID", scope = MaterialPart.class)
     public JAXBElement<Integer> createMaterialPartMediaID(Integer value) {
-        return new JAXBElement<Integer>(_MaterialPartMediaID_QNAME, Integer.class, MaterialPart.class, value);
+        return new JAXBElement<Integer>(_MaterialReelMediaID_QNAME, Integer.class, MaterialPart.class, value);
     }
 
     /**
@@ -724,6 +688,231 @@ public class ObjectFactory {
     @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "PartNo", scope = MaterialPart.class)
     public JAXBElement<Integer> createMaterialPartPartNo(Integer value) {
         return new JAXBElement<Integer>(_MaterialPartPartNo_QNAME, Integer.class, MaterialPart.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link Boolean }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "EditSignoff", scope = EditorialStatus.class)
+    public JAXBElement<Boolean> createEditorialStatusEditSignoff(Boolean value) {
+        return new JAXBElement<Boolean>(_EditorialStatusEditSignoff_QNAME, Boolean.class, EditorialStatus.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link XMLGregorianCalendar }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "EditCompleteDate", scope = EditorialStatus.class)
+    public JAXBElement<XMLGregorianCalendar> createEditorialStatusEditCompleteDate(XMLGregorianCalendar value) {
+        return new JAXBElement<XMLGregorianCalendar>(_EditorialStatusEditCompleteDate_QNAME, XMLGregorianCalendar.class, EditorialStatus.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link Boolean }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "EditComplete", scope = EditorialStatus.class)
+    public JAXBElement<Boolean> createEditorialStatusEditComplete(Boolean value) {
+        return new JAXBElement<Boolean>(_EditorialStatusEditComplete_QNAME, Boolean.class, EditorialStatus.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link XMLGregorianCalendar }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "EditSignoffDate", scope = EditorialStatus.class)
+    public JAXBElement<XMLGregorianCalendar> createEditorialStatusEditSignoffDate(XMLGregorianCalendar value) {
+        return new JAXBElement<XMLGregorianCalendar>(_EditorialStatusEditSignoffDate_QNAME, XMLGregorianCalendar.class, EditorialStatus.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "Description", scope = Keyword.class)
+    public JAXBElement<String> createKeywordDescription(String value) {
+        return new JAXBElement<String>(_KeywordDescription_QNAME, String.class, Keyword.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "Code", scope = Keyword.class)
+    public JAXBElement<String> createKeywordCode(String value) {
+        return new JAXBElement<String>(_KeywordCode_QNAME, String.class, Keyword.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link XMLGregorianCalendar }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "ArrivalDate", scope = MaterialMetaData.class)
+    public JAXBElement<XMLGregorianCalendar> createMaterialMetaDataArrivalDate(XMLGregorianCalendar value) {
+        return new JAXBElement<XMLGregorianCalendar>(_MaterialMetaDataArrivalDate_QNAME, XMLGregorianCalendar.class, MaterialMetaData.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "SeriesName", scope = MaterialMetaData.class)
+    public JAXBElement<String> createMaterialMetaDataSeriesName(String value) {
+        return new JAXBElement<String>(_MaterialMetaDataSeriesName_QNAME, String.class, MaterialMetaData.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "FileName", scope = MaterialMetaData.class)
+    public JAXBElement<String> createMaterialMetaDataFileName(String value) {
+        return new JAXBElement<String>(_MaterialMetaDataFileName_QNAME, String.class, MaterialMetaData.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "ProductionNo", scope = MaterialMetaData.class)
+    public JAXBElement<String> createMaterialMetaDataProductionNo(String value) {
+        return new JAXBElement<String>(_MaterialMetaDataProductionNo_QNAME, String.class, MaterialMetaData.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "BSSMediaID", scope = MaterialMetaData.class)
+    public JAXBElement<String> createMaterialMetaDataBSSMediaID(String value) {
+        return new JAXBElement<String>(_MaterialMetaDataBSSMediaID_QNAME, String.class, MaterialMetaData.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "Title", scope = MaterialMetaData.class)
+    public JAXBElement<String> createMaterialMetaDataTitle(String value) {
+        return new JAXBElement<String>(_MaterialMetaDataTitle_QNAME, String.class, MaterialMetaData.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "MaterialMetaDataID", scope = MaterialMetaData.class)
+    public JAXBElement<Integer> createMaterialMetaDataMaterialMetaDataID(Integer value) {
+        return new JAXBElement<Integer>(_MaterialMetaDataMaterialMetaDataID_QNAME, Integer.class, MaterialMetaData.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link Boolean }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "MarkedAsDeleted", scope = MaterialMetaData.class)
+    public JAXBElement<Boolean> createMaterialMetaDataMarkedAsDeleted(Boolean value) {
+        return new JAXBElement<Boolean>(_MaterialMetaDataMarkedAsDeleted_QNAME, Boolean.class, MaterialMetaData.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "DeliveryChannelGroup", scope = MaterialMetaData.class)
+    public JAXBElement<String> createMaterialMetaDataDeliveryChannelGroup(String value) {
+        return new JAXBElement<String>(_MaterialMetaDataDeliveryChannelGroup_QNAME, String.class, MaterialMetaData.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "TemporaryMAMID", scope = MaterialMetaData.class)
+    public JAXBElement<String> createMaterialMetaDataTemporaryMAMID(String value) {
+        return new JAXBElement<String>(_MaterialMetaDataTemporaryMAMID_QNAME, String.class, MaterialMetaData.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "EpisodeNo", scope = MaterialMetaData.class)
+    public JAXBElement<Integer> createMaterialMetaDataEpisodeNo(Integer value) {
+        return new JAXBElement<Integer>(_MaterialMetaDataEpisodeNo_QNAME, Integer.class, MaterialMetaData.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link Boolean }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "CaptionApproved", scope = ClosedCaption.class)
+    public JAXBElement<Boolean> createClosedCaptionCaptionApproved(Boolean value) {
+        return new JAXBElement<Boolean>(_ClosedCaptionCaptionApproved_QNAME, Boolean.class, ClosedCaption.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link Boolean }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "CaptionEmbedded", scope = ClosedCaption.class)
+    public JAXBElement<Boolean> createClosedCaptionCaptionEmbedded(Boolean value) {
+        return new JAXBElement<Boolean>(_ClosedCaptionCaptionEmbedded_QNAME, Boolean.class, ClosedCaption.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link XMLGregorianCalendar }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "ReceivedDate", scope = ClosedCaption.class)
+    public JAXBElement<XMLGregorianCalendar> createClosedCaptionReceivedDate(XMLGregorianCalendar value) {
+        return new JAXBElement<XMLGregorianCalendar>(_ClosedCaptionReceivedDate_QNAME, XMLGregorianCalendar.class, ClosedCaption.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link Boolean }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "CaptionRequired", scope = ClosedCaption.class)
+    public JAXBElement<Boolean> createClosedCaptionCaptionRequired(Boolean value) {
+        return new JAXBElement<Boolean>(_ClosedCaptionCaptionRequired_QNAME, Boolean.class, ClosedCaption.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "Type", scope = Material.class)
+    public JAXBElement<String> createMaterialType(String value) {
+        return new JAXBElement<String>(_MaterialType_QNAME, String.class, Material.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link ArrayOfMaterialReel }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "MaterialReel", scope = Material.class)
+    public JAXBElement<ArrayOfMaterialReel> createMaterialMaterialReel(ArrayOfMaterialReel value) {
+        return new JAXBElement<ArrayOfMaterialReel>(_MaterialReel_QNAME, ArrayOfMaterialReel.class, Material.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "MaterialID", scope = Material.class)
+    public JAXBElement<Integer> createMaterialMaterialID(Integer value) {
+        return new JAXBElement<Integer>(_MaterialMaterialID_QNAME, Integer.class, Material.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "VersionID", scope = Material.class)
+    public JAXBElement<Integer> createMaterialVersionID(Integer value) {
+        return new JAXBElement<Integer>(_MaterialVersionID_QNAME, Integer.class, Material.class, value);
     }
 
     /**
@@ -867,7 +1056,7 @@ public class ObjectFactory {
      */
     @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "VersionID", scope = Version.class)
     public JAXBElement<Integer> createVersionVersionID(Integer value) {
-        return new JAXBElement<Integer>(_VersionVersionID_QNAME, Integer.class, Version.class, value);
+        return new JAXBElement<Integer>(_MaterialVersionID_QNAME, Integer.class, Version.class, value);
     }
 
     /**
@@ -898,246 +1087,102 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link Boolean }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "Type", scope = Material.class)
-    public JAXBElement<String> createMaterialType(String value) {
-        return new JAXBElement<String>(_MaterialType_QNAME, String.class, Material.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ArrayOfMaterialReel }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "MaterialReel", scope = Material.class)
-    public JAXBElement<ArrayOfMaterialReel> createMaterialMaterialReel(ArrayOfMaterialReel value) {
-        return new JAXBElement<ArrayOfMaterialReel>(_MaterialReel_QNAME, ArrayOfMaterialReel.class, Material.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "MaterialID", scope = Material.class)
-    public JAXBElement<Integer> createMaterialMaterialID(Integer value) {
-        return new JAXBElement<Integer>(_MaterialMaterialID_QNAME, Integer.class, Material.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "VersionID", scope = Material.class)
-    public JAXBElement<Integer> createMaterialVersionID(Integer value) {
-        return new JAXBElement<Integer>(_VersionVersionID_QNAME, Integer.class, Material.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link XMLGregorianCalendar }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "ArrivalDate", scope = MaterialMetaData.class)
-    public JAXBElement<XMLGregorianCalendar> createMaterialMetaDataArrivalDate(XMLGregorianCalendar value) {
-        return new JAXBElement<XMLGregorianCalendar>(_MaterialMetaDataArrivalDate_QNAME, XMLGregorianCalendar.class, MaterialMetaData.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "SeriesName", scope = MaterialMetaData.class)
-    public JAXBElement<String> createMaterialMetaDataSeriesName(String value) {
-        return new JAXBElement<String>(_MaterialMetaDataSeriesName_QNAME, String.class, MaterialMetaData.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "FileName", scope = MaterialMetaData.class)
-    public JAXBElement<String> createMaterialMetaDataFileName(String value) {
-        return new JAXBElement<String>(_MaterialMetaDataFileName_QNAME, String.class, MaterialMetaData.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "ProductionNo", scope = MaterialMetaData.class)
-    public JAXBElement<String> createMaterialMetaDataProductionNo(String value) {
-        return new JAXBElement<String>(_MaterialMetaDataProductionNo_QNAME, String.class, MaterialMetaData.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "BSSMediaID", scope = MaterialMetaData.class)
-    public JAXBElement<String> createMaterialMetaDataBSSMediaID(String value) {
-        return new JAXBElement<String>(_MaterialMetaDataBSSMediaID_QNAME, String.class, MaterialMetaData.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "Title", scope = MaterialMetaData.class)
-    public JAXBElement<String> createMaterialMetaDataTitle(String value) {
-        return new JAXBElement<String>(_MaterialMetaDataTitle_QNAME, String.class, MaterialMetaData.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "MaterialMetaDataID", scope = MaterialMetaData.class)
-    public JAXBElement<Integer> createMaterialMetaDataMaterialMetaDataID(Integer value) {
-        return new JAXBElement<Integer>(_MaterialMetaDataMaterialMetaDataID_QNAME, Integer.class, MaterialMetaData.class, value);
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "AudioApproved", scope = AudioDescription.class)
+    public JAXBElement<Boolean> createAudioDescriptionAudioApproved(Boolean value) {
+        return new JAXBElement<Boolean>(_AudioDescriptionAudioApproved_QNAME, Boolean.class, AudioDescription.class, value);
     }
 
     /**
      * Create an instance of {@link JAXBElement }{@code <}{@link Boolean }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "MarkedAsDeleted", scope = MaterialMetaData.class)
-    public JAXBElement<Boolean> createMaterialMetaDataMarkedAsDeleted(Boolean value) {
-        return new JAXBElement<Boolean>(_MaterialMetaDataMarkedAsDeleted_QNAME, Boolean.class, MaterialMetaData.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "DeliveryChannelGroup", scope = MaterialMetaData.class)
-    public JAXBElement<String> createMaterialMetaDataDeliveryChannelGroup(String value) {
-        return new JAXBElement<String>(_MaterialMetaDataDeliveryChannelGroup_QNAME, String.class, MaterialMetaData.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "TemporaryMAMID", scope = MaterialMetaData.class)
-    public JAXBElement<String> createMaterialMetaDataTemporaryMAMID(String value) {
-        return new JAXBElement<String>(_MaterialMetaDataTemporaryMAMID_QNAME, String.class, MaterialMetaData.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "EpisodeNo", scope = MaterialMetaData.class)
-    public JAXBElement<Integer> createMaterialMetaDataEpisodeNo(Integer value) {
-        return new JAXBElement<Integer>(_MaterialMetaDataEpisodeNo_QNAME, Integer.class, MaterialMetaData.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link MaterialMetaData }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "MaterialMetaData", scope = MaterialReel.class)
-    public JAXBElement<MaterialMetaData> createMaterialReelMaterialMetaData(MaterialMetaData value) {
-        return new JAXBElement<MaterialMetaData>(_MaterialMetaData_QNAME, MaterialMetaData.class, MaterialReel.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Boolean }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "Active", scope = MaterialReel.class)
-    public JAXBElement<Boolean> createMaterialReelActive(Boolean value) {
-        return new JAXBElement<Boolean>(_MaterialReelActive_QNAME, Boolean.class, MaterialReel.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "ReelNo", scope = MaterialReel.class)
-    public JAXBElement<Integer> createMaterialReelReelNo(Integer value) {
-        return new JAXBElement<Integer>(_MaterialReelReelNo_QNAME, Integer.class, MaterialReel.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "Format", scope = MaterialReel.class)
-    public JAXBElement<String> createMaterialReelFormat(String value) {
-        return new JAXBElement<String>(_MaterialReelFormat_QNAME, String.class, MaterialReel.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ArrayOfMaterialPart }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "MaterialPart", scope = MaterialReel.class)
-    public JAXBElement<ArrayOfMaterialPart> createMaterialReelMaterialPart(ArrayOfMaterialPart value) {
-        return new JAXBElement<ArrayOfMaterialPart>(_MaterialPart_QNAME, ArrayOfMaterialPart.class, MaterialReel.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "TapeTypeID", scope = MaterialReel.class)
-    public JAXBElement<Integer> createMaterialReelTapeTypeID(Integer value) {
-        return new JAXBElement<Integer>(_MaterialReelTapeTypeID_QNAME, Integer.class, MaterialReel.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "MediaMatched", scope = MaterialReel.class)
-    public JAXBElement<String> createMaterialReelMediaMatched(String value) {
-        return new JAXBElement<String>(_MaterialReelMediaMatched_QNAME, String.class, MaterialReel.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "MediaID", scope = MaterialReel.class)
-    public JAXBElement<String> createMaterialReelMediaID(String value) {
-        return new JAXBElement<String>(_MaterialPartMediaID_QNAME, String.class, MaterialReel.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "Location", scope = MaterialReel.class)
-    public JAXBElement<String> createMaterialReelLocation(String value) {
-        return new JAXBElement<String>(_MaterialReelLocation_QNAME, String.class, MaterialReel.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "TotalReels", scope = MaterialReel.class)
-    public JAXBElement<Integer> createMaterialReelTotalReels(Integer value) {
-        return new JAXBElement<Integer>(_MaterialReelTotalReels_QNAME, Integer.class, MaterialReel.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "DeliveryReferenceID", scope = PurchaseMaterialStatus.class)
-    public JAXBElement<String> createPurchaseMaterialStatusDeliveryReferenceID(String value) {
-        return new JAXBElement<String>(_PurchaseMaterialStatusDeliveryReferenceID_QNAME, String.class, PurchaseMaterialStatus.class, value);
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "AudioEmbedded", scope = AudioDescription.class)
+    public JAXBElement<Boolean> createAudioDescriptionAudioEmbedded(Boolean value) {
+        return new JAXBElement<Boolean>(_AudioDescriptionAudioEmbedded_QNAME, Boolean.class, AudioDescription.class, value);
     }
 
     /**
      * Create an instance of {@link JAXBElement }{@code <}{@link XMLGregorianCalendar }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "DeliveryDate", scope = PurchaseMaterialStatus.class)
-    public JAXBElement<XMLGregorianCalendar> createPurchaseMaterialStatusDeliveryDate(XMLGregorianCalendar value) {
-        return new JAXBElement<XMLGregorianCalendar>(_PurchaseMaterialStatusDeliveryDate_QNAME, XMLGregorianCalendar.class, PurchaseMaterialStatus.class, value);
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "ReceivedDate", scope = AudioDescription.class)
+    public JAXBElement<XMLGregorianCalendar> createAudioDescriptionReceivedDate(XMLGregorianCalendar value) {
+        return new JAXBElement<XMLGregorianCalendar>(_ClosedCaptionReceivedDate_QNAME, XMLGregorianCalendar.class, AudioDescription.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link Boolean }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "AudioRequired", scope = AudioDescription.class)
+    public JAXBElement<Boolean> createAudioDescriptionAudioRequired(Boolean value) {
+        return new JAXBElement<Boolean>(_AudioDescriptionAudioRequired_QNAME, Boolean.class, AudioDescription.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link Boolean }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "FlashingImages", scope = Certification.class)
+    public JAXBElement<Boolean> createCertificationFlashingImages(Boolean value) {
+        return new JAXBElement<Boolean>(_CertificationFlashingImages_QNAME, Boolean.class, Certification.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "CertificationCode", scope = Certification.class)
+    public JAXBElement<String> createCertificationCertificationCode(String value) {
+        return new JAXBElement<String>(_CertificationCertificationCode_QNAME, String.class, Certification.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link Boolean }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "MatureTheme", scope = Certification.class)
+    public JAXBElement<Boolean> createCertificationMatureTheme(Boolean value) {
+        return new JAXBElement<Boolean>(_CertificationMatureTheme_QNAME, Boolean.class, Certification.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link Boolean }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "Violence", scope = Certification.class)
+    public JAXBElement<Boolean> createCertificationViolence(Boolean value) {
+        return new JAXBElement<Boolean>(_CertificationViolence_QNAME, Boolean.class, Certification.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link Boolean }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "Sex", scope = Certification.class)
+    public JAXBElement<Boolean> createCertificationSex(Boolean value) {
+        return new JAXBElement<Boolean>(_CertificationSex_QNAME, Boolean.class, Certification.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link Boolean }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "Language", scope = Certification.class)
+    public JAXBElement<Boolean> createCertificationLanguage(Boolean value) {
+        return new JAXBElement<Boolean>(_CertificationLanguage_QNAME, Boolean.class, Certification.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link Boolean }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "CertificateConfirm", scope = Certification.class)
+    public JAXBElement<Boolean> createCertificationCertificateConfirm(Boolean value) {
+        return new JAXBElement<Boolean>(_CertificationCertificateConfirm_QNAME, Boolean.class, Certification.class, value);
     }
 
     /**
@@ -1357,102 +1402,57 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "QCStatus", scope = QualityControl.class)
+    public JAXBElement<String> createQualityControlQCStatus(String value) {
+        return new JAXBElement<String>(_QualityControlQCStatus_QNAME, String.class, QualityControl.class, value);
+    }
+
+    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link Boolean }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "FlashingImages", scope = Certification.class)
-    public JAXBElement<Boolean> createCertificationFlashingImages(Boolean value) {
-        return new JAXBElement<Boolean>(_CertificationFlashingImages_QNAME, Boolean.class, Certification.class, value);
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "QCSignedOff", scope = QualityControl.class)
+    public JAXBElement<Boolean> createQualityControlQCSignedOff(Boolean value) {
+        return new JAXBElement<Boolean>(_QualityControlQCSignedOff_QNAME, Boolean.class, QualityControl.class, value);
     }
 
     /**
      * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "CertificationCode", scope = Certification.class)
-    public JAXBElement<String> createCertificationCertificationCode(String value) {
-        return new JAXBElement<String>(_CertificationCertificationCode_QNAME, String.class, Certification.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Boolean }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "MatureTheme", scope = Certification.class)
-    public JAXBElement<Boolean> createCertificationMatureTheme(Boolean value) {
-        return new JAXBElement<Boolean>(_CertificationMatureTheme_QNAME, Boolean.class, Certification.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Boolean }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "Violence", scope = Certification.class)
-    public JAXBElement<Boolean> createCertificationViolence(Boolean value) {
-        return new JAXBElement<Boolean>(_CertificationViolence_QNAME, Boolean.class, Certification.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Boolean }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "Sex", scope = Certification.class)
-    public JAXBElement<Boolean> createCertificationSex(Boolean value) {
-        return new JAXBElement<Boolean>(_CertificationSex_QNAME, Boolean.class, Certification.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Boolean }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "Language", scope = Certification.class)
-    public JAXBElement<Boolean> createCertificationLanguage(Boolean value) {
-        return new JAXBElement<Boolean>(_CertificationLanguage_QNAME, Boolean.class, Certification.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Boolean }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "CertificateConfirm", scope = Certification.class)
-    public JAXBElement<Boolean> createCertificationCertificateConfirm(Boolean value) {
-        return new JAXBElement<Boolean>(_CertificationCertificateConfirm_QNAME, Boolean.class, Certification.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Boolean }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "EditSignoff", scope = EditorialStatus.class)
-    public JAXBElement<Boolean> createEditorialStatusEditSignoff(Boolean value) {
-        return new JAXBElement<Boolean>(_EditorialStatusEditSignoff_QNAME, Boolean.class, EditorialStatus.class, value);
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "QCConclusionUser", scope = QualityControl.class)
+    public JAXBElement<String> createQualityControlQCConclusionUser(String value) {
+        return new JAXBElement<String>(_QualityControlQCConclusionUser_QNAME, String.class, QualityControl.class, value);
     }
 
     /**
      * Create an instance of {@link JAXBElement }{@code <}{@link XMLGregorianCalendar }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "EditCompleteDate", scope = EditorialStatus.class)
-    public JAXBElement<XMLGregorianCalendar> createEditorialStatusEditCompleteDate(XMLGregorianCalendar value) {
-        return new JAXBElement<XMLGregorianCalendar>(_EditorialStatusEditCompleteDate_QNAME, XMLGregorianCalendar.class, EditorialStatus.class, value);
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "QCStatusDate", scope = QualityControl.class)
+    public JAXBElement<XMLGregorianCalendar> createQualityControlQCStatusDate(XMLGregorianCalendar value) {
+        return new JAXBElement<XMLGregorianCalendar>(_QualityControlQCStatusDate_QNAME, XMLGregorianCalendar.class, QualityControl.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Boolean }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "EditComplete", scope = EditorialStatus.class)
-    public JAXBElement<Boolean> createEditorialStatusEditComplete(Boolean value) {
-        return new JAXBElement<Boolean>(_EditorialStatusEditComplete_QNAME, Boolean.class, EditorialStatus.class, value);
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "QCLevel", scope = QualityControl.class)
+    public JAXBElement<String> createQualityControlQCLevel(String value) {
+        return new JAXBElement<String>(_QualityControlQCLevel_QNAME, String.class, QualityControl.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link XMLGregorianCalendar }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "EditSignoffDate", scope = EditorialStatus.class)
-    public JAXBElement<XMLGregorianCalendar> createEditorialStatusEditSignoffDate(XMLGregorianCalendar value) {
-        return new JAXBElement<XMLGregorianCalendar>(_EditorialStatusEditSignoffDate_QNAME, XMLGregorianCalendar.class, EditorialStatus.class, value);
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Traffic", name = "QCConclusion", scope = QualityControl.class)
+    public JAXBElement<String> createQualityControlQCConclusion(String value) {
+        return new JAXBElement<String>(_QualityControlQCConclusion_QNAME, String.class, QualityControl.class, value);
     }
 
 }

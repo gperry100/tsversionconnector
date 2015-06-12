@@ -8,7 +8,8 @@ import traffic.wcf.bss.com.bskyb.tsversion.ITSVersionGetBusinessExceptionFaultFa
 
 public class TsVersionClientImplTestSuite {
 	
-	final String address = "http://localhost:9191/tsversion";
+//	final String address = "http://localhost:9191/tsversion";
+	final String address = "http://localhost:8081/test";
 	
 	@Test
 	public void testGetTsVersionClient(){

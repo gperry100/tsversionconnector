@@ -34,20 +34,20 @@ public class ObjectFactory {
     private final static QName _Error_QNAME = new QName("http://BSkyB.com.BSS.Common", "Error");
     private final static QName _BusinessError_QNAME = new QName("http://BSkyB.com.BSS.Common", "BusinessError");
     private final static QName _ArrayOfParameterError_QNAME = new QName("http://BSkyB.com.BSS.Common", "ArrayOfParameterError");
-    private final static QName _ParameterErrorParameters_QNAME = new QName("http://BSkyB.com.BSS.Common", "Parameters");
-    private final static QName _BusinessErrorSource_QNAME = new QName("http://BSkyB.com.BSS.Common", "Source");
-    private final static QName _BusinessExceptionParameterErrors_QNAME = new QName("http://BSkyB.com.BSS.Common", "ParameterErrors");
-    private final static QName _BusinessExceptionEntityErrors_QNAME = new QName("http://BSkyB.com.BSS.Common", "EntityErrors");
     private final static QName _EndUserEndUserDomain_QNAME = new QName("http://BSkyB.com.BSS.Common", "EndUserDomain");
     private final static QName _EndUserEndUserIPAddress_QNAME = new QName("http://BSkyB.com.BSS.Common", "EndUserIPAddress");
     private final static QName _EndUserEndUserID_QNAME = new QName("http://BSkyB.com.BSS.Common", "EndUserID");
-    private final static QName _NameValueValue_QNAME = new QName("http://BSkyB.com.BSS.Common", "Value");
-    private final static QName _NameValueName_QNAME = new QName("http://BSkyB.com.BSS.Common", "Name");
-    private final static QName _ErrorCode_QNAME = new QName("http://BSkyB.com.BSS.Common", "Code");
-    private final static QName _ErrorMessage_QNAME = new QName("http://BSkyB.com.BSS.Common", "Message");
     private final static QName _EntityErrorObjectID_QNAME = new QName("http://BSkyB.com.BSS.Common", "ObjectID");
     private final static QName _EntityErrorAttributes_QNAME = new QName("http://BSkyB.com.BSS.Common", "Attributes");
     private final static QName _EntityErrorObjectType_QNAME = new QName("http://BSkyB.com.BSS.Common", "ObjectType");
+    private final static QName _ParameterErrorParameters_QNAME = new QName("http://BSkyB.com.BSS.Common", "Parameters");
+    private final static QName _ErrorCode_QNAME = new QName("http://BSkyB.com.BSS.Common", "Code");
+    private final static QName _ErrorMessage_QNAME = new QName("http://BSkyB.com.BSS.Common", "Message");
+    private final static QName _NameValueValue_QNAME = new QName("http://BSkyB.com.BSS.Common", "Value");
+    private final static QName _NameValueName_QNAME = new QName("http://BSkyB.com.BSS.Common", "Name");
+    private final static QName _BusinessExceptionParameterErrors_QNAME = new QName("http://BSkyB.com.BSS.Common", "ParameterErrors");
+    private final static QName _BusinessExceptionEntityErrors_QNAME = new QName("http://BSkyB.com.BSS.Common", "EntityErrors");
+    private final static QName _BusinessErrorSource_QNAME = new QName("http://BSkyB.com.BSS.Common", "Source");
 
     /**
      * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: common.bss.com.bskyb
@@ -227,51 +227,6 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ArrayOfNameValue }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Common", name = "Parameters", scope = ParameterError.class)
-    public JAXBElement<ArrayOfNameValue> createParameterErrorParameters(ArrayOfNameValue value) {
-        return new JAXBElement<ArrayOfNameValue>(_ParameterErrorParameters_QNAME, ArrayOfNameValue.class, ParameterError.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Error }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Common", name = "Error", scope = BusinessError.class)
-    public JAXBElement<Error> createBusinessErrorError(Error value) {
-        return new JAXBElement<Error>(_Error_QNAME, Error.class, BusinessError.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Common", name = "Source", scope = BusinessError.class)
-    public JAXBElement<String> createBusinessErrorSource(String value) {
-        return new JAXBElement<String>(_BusinessErrorSource_QNAME, String.class, BusinessError.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ArrayOfParameterError }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Common", name = "ParameterErrors", scope = BusinessException.class)
-    public JAXBElement<ArrayOfParameterError> createBusinessExceptionParameterErrors(ArrayOfParameterError value) {
-        return new JAXBElement<ArrayOfParameterError>(_BusinessExceptionParameterErrors_QNAME, ArrayOfParameterError.class, BusinessException.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ArrayOfEntityError }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Common", name = "EntityErrors", scope = BusinessException.class)
-    public JAXBElement<ArrayOfEntityError> createBusinessExceptionEntityErrors(ArrayOfEntityError value) {
-        return new JAXBElement<ArrayOfEntityError>(_BusinessExceptionEntityErrors_QNAME, ArrayOfEntityError.class, BusinessException.class, value);
-    }
-
-    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
      * 
      */
@@ -299,42 +254,6 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Object }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Common", name = "Value", scope = NameValue.class)
-    public JAXBElement<Object> createNameValueValue(Object value) {
-        return new JAXBElement<Object>(_NameValueValue_QNAME, Object.class, NameValue.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Common", name = "Name", scope = NameValue.class)
-    public JAXBElement<String> createNameValueName(String value) {
-        return new JAXBElement<String>(_NameValueName_QNAME, String.class, NameValue.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Common", name = "Code", scope = Error.class)
-    public JAXBElement<Integer> createErrorCode(Integer value) {
-        return new JAXBElement<Integer>(_ErrorCode_QNAME, Integer.class, Error.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Common", name = "Message", scope = Error.class)
-    public JAXBElement<String> createErrorMessage(String value) {
-        return new JAXBElement<String>(_ErrorMessage_QNAME, String.class, Error.class, value);
-    }
-
-    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
      * 
      */
@@ -359,6 +278,87 @@ public class ObjectFactory {
     @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Common", name = "ObjectType", scope = EntityError.class)
     public JAXBElement<String> createEntityErrorObjectType(String value) {
         return new JAXBElement<String>(_EntityErrorObjectType_QNAME, String.class, EntityError.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link ArrayOfNameValue }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Common", name = "Parameters", scope = ParameterError.class)
+    public JAXBElement<ArrayOfNameValue> createParameterErrorParameters(ArrayOfNameValue value) {
+        return new JAXBElement<ArrayOfNameValue>(_ParameterErrorParameters_QNAME, ArrayOfNameValue.class, ParameterError.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Common", name = "Code", scope = Error.class)
+    public JAXBElement<Integer> createErrorCode(Integer value) {
+        return new JAXBElement<Integer>(_ErrorCode_QNAME, Integer.class, Error.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Common", name = "Message", scope = Error.class)
+    public JAXBElement<String> createErrorMessage(String value) {
+        return new JAXBElement<String>(_ErrorMessage_QNAME, String.class, Error.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link Object }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Common", name = "Value", scope = NameValue.class)
+    public JAXBElement<Object> createNameValueValue(Object value) {
+        return new JAXBElement<Object>(_NameValueValue_QNAME, Object.class, NameValue.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Common", name = "Name", scope = NameValue.class)
+    public JAXBElement<String> createNameValueName(String value) {
+        return new JAXBElement<String>(_NameValueName_QNAME, String.class, NameValue.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link ArrayOfParameterError }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Common", name = "ParameterErrors", scope = BusinessException.class)
+    public JAXBElement<ArrayOfParameterError> createBusinessExceptionParameterErrors(ArrayOfParameterError value) {
+        return new JAXBElement<ArrayOfParameterError>(_BusinessExceptionParameterErrors_QNAME, ArrayOfParameterError.class, BusinessException.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link ArrayOfEntityError }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Common", name = "EntityErrors", scope = BusinessException.class)
+    public JAXBElement<ArrayOfEntityError> createBusinessExceptionEntityErrors(ArrayOfEntityError value) {
+        return new JAXBElement<ArrayOfEntityError>(_BusinessExceptionEntityErrors_QNAME, ArrayOfEntityError.class, BusinessException.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link Error }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Common", name = "Error", scope = BusinessError.class)
+    public JAXBElement<Error> createBusinessErrorError(Error value) {
+        return new JAXBElement<Error>(_Error_QNAME, Error.class, BusinessError.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Common", name = "Source", scope = BusinessError.class)
+    public JAXBElement<String> createBusinessErrorSource(String value) {
+        return new JAXBElement<String>(_BusinessErrorSource_QNAME, String.class, BusinessError.class, value);
     }
 
 }

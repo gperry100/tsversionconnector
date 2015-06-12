@@ -31,9 +31,6 @@ public class ObjectFactory {
     private final static QName _ArrayOfTitle_QNAME = new QName("http://BSkyB.com.BSS.Contract.Aquisition", "ArrayOfTitle");
     private final static QName _Series_QNAME = new QName("http://BSkyB.com.BSS.Contract.Aquisition", "Series");
     private final static QName _Purchase_QNAME = new QName("http://BSkyB.com.BSS.Contract.Aquisition", "Purchase");
-    private final static QName _SynopsisText_QNAME = new QName("http://BSkyB.com.BSS.Contract.Aquisition", "Text");
-    private final static QName _SeriesSeriesSeason_QNAME = new QName("http://BSkyB.com.BSS.Contract.Aquisition", "SeriesSeason");
-    private final static QName _SeriesSeriesName_QNAME = new QName("http://BSkyB.com.BSS.Contract.Aquisition", "SeriesName");
     private final static QName _PurchaseEpisodeNo_QNAME = new QName("http://BSkyB.com.BSS.Contract.Aquisition", "EpisodeNo");
     private final static QName _PurchasePurchaseID_QNAME = new QName("http://BSkyB.com.BSS.Contract.Aquisition", "PurchaseID");
     private final static QName _PurchaseSeriesID_QNAME = new QName("http://BSkyB.com.BSS.Contract.Aquisition", "SeriesID");
@@ -45,6 +42,9 @@ public class ObjectFactory {
     private final static QName _TitleSubGenreID_QNAME = new QName("http://BSkyB.com.BSS.Contract.Aquisition", "SubGenreID");
     private final static QName _TitleGenreID_QNAME = new QName("http://BSkyB.com.BSS.Contract.Aquisition", "GenreID");
     private final static QName _TitleProductionNo_QNAME = new QName("http://BSkyB.com.BSS.Contract.Aquisition", "ProductionNo");
+    private final static QName _SeriesSeriesSeason_QNAME = new QName("http://BSkyB.com.BSS.Contract.Aquisition", "SeriesSeason");
+    private final static QName _SeriesSeriesName_QNAME = new QName("http://BSkyB.com.BSS.Contract.Aquisition", "SeriesName");
+    private final static QName _SynopsisText_QNAME = new QName("http://BSkyB.com.BSS.Contract.Aquisition", "Text");
 
     /**
      * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: aquisition.contract.bss.com.bskyb
@@ -173,33 +173,6 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Aquisition", name = "Text", scope = Synopsis.class)
-    public JAXBElement<String> createSynopsisText(String value) {
-        return new JAXBElement<String>(_SynopsisText_QNAME, String.class, Synopsis.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Aquisition", name = "SeriesSeason", scope = Series.class)
-    public JAXBElement<String> createSeriesSeriesSeason(String value) {
-        return new JAXBElement<String>(_SeriesSeriesSeason_QNAME, String.class, Series.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Aquisition", name = "SeriesName", scope = Series.class)
-    public JAXBElement<String> createSeriesSeriesName(String value) {
-        return new JAXBElement<String>(_SeriesSeriesName_QNAME, String.class, Series.class, value);
-    }
-
-    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link Integer }{@code >}}
      * 
      */
@@ -314,6 +287,33 @@ public class ObjectFactory {
     @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Aquisition", name = "ProductionNo", scope = Title.class)
     public JAXBElement<String> createTitleProductionNo(String value) {
         return new JAXBElement<String>(_TitleProductionNo_QNAME, String.class, Title.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Aquisition", name = "SeriesSeason", scope = Series.class)
+    public JAXBElement<String> createSeriesSeriesSeason(String value) {
+        return new JAXBElement<String>(_SeriesSeriesSeason_QNAME, String.class, Series.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Aquisition", name = "SeriesName", scope = Series.class)
+    public JAXBElement<String> createSeriesSeriesName(String value) {
+        return new JAXBElement<String>(_SeriesSeriesName_QNAME, String.class, Series.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://BSkyB.com.BSS.Contract.Aquisition", name = "Text", scope = Synopsis.class)
+    public JAXBElement<String> createSynopsisText(String value) {
+        return new JAXBElement<String>(_SynopsisText_QNAME, String.class, Synopsis.class, value);
     }
 
 }
