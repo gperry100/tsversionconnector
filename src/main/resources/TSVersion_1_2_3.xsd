@@ -1,0 +1,220 @@
+<xs:schema elementFormDefault="qualified" targetNamespace="http://BSkyB.com.BSS.Contract.Traffic" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://BSkyB.com.BSS.Contract.Traffic">
+  <xs:complexType name="ArrayOfVersion">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Version" nillable="true" type="tns:Version"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfVersion" nillable="true" type="tns:ArrayOfVersion"/>
+  <xs:complexType name="Version">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AspectRatio" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="Audio" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="AudioDescription" nillable="true" type="tns:AudioDescription"/>
+      <xs:element minOccurs="0" name="Certification" nillable="true" type="tns:Certification"/>
+      <xs:element minOccurs="0" name="ClosedCaption" nillable="true" type="tns:ClosedCaption"/>
+      <xs:element minOccurs="0" name="Colour" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="EditorialStatus" nillable="true" type="tns:EditorialStatus"/>
+      <xs:element minOccurs="0" name="HighDefinition" nillable="true" type="xs:boolean"/>
+      <xs:element minOccurs="0" name="HighDefinitionResolution" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="Keyword" nillable="true" type="tns:ArrayOfKeyword"/>
+      <xs:element minOccurs="0" name="PurchaseMaterialStatus" nillable="true" type="tns:ArrayOfPurchaseMaterialStatus"/>
+      <xs:element minOccurs="0" name="QualityControl" nillable="true" type="tns:QualityControl"/>
+      <xs:element minOccurs="0" name="SubTitles" nillable="true" type="xs:boolean"/>
+      <xs:element minOccurs="0" name="TXStatus" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="TitleID" nillable="true" type="xs:int"/>
+      <xs:element minOccurs="0" name="VersionID" nillable="true" type="xs:int"/>
+      <xs:element minOccurs="0" name="VersionName" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="VersionSeqNo" nillable="true" type="xs:int"/>
+      <xs:element minOccurs="0" name="VersionVoiceOver" nillable="true" type="tns:VersionVoiceOver"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Version" nillable="true" type="tns:Version"/>
+  <xs:complexType name="AudioDescription">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AudioApproved" nillable="true" type="xs:boolean"/>
+      <xs:element minOccurs="0" name="AudioEmbedded" nillable="true" type="xs:boolean"/>
+      <xs:element minOccurs="0" name="AudioRequired" nillable="true" type="xs:boolean"/>
+      <xs:element minOccurs="0" name="ReceivedDate" nillable="true" type="xs:dateTime"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AudioDescription" nillable="true" type="tns:AudioDescription"/>
+  <xs:complexType name="Certification">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CertificateConfirm" nillable="true" type="xs:boolean"/>
+      <xs:element minOccurs="0" name="CertificationCode" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="FlashingImages" nillable="true" type="xs:boolean"/>
+      <xs:element minOccurs="0" name="Language" nillable="true" type="xs:boolean"/>
+      <xs:element minOccurs="0" name="MatureTheme" nillable="true" type="xs:boolean"/>
+      <xs:element minOccurs="0" name="Sex" nillable="true" type="xs:boolean"/>
+      <xs:element minOccurs="0" name="Violence" nillable="true" type="xs:boolean"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Certification" nillable="true" type="tns:Certification"/>
+  <xs:complexType name="ClosedCaption">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CaptionApproved" nillable="true" type="xs:boolean"/>
+      <xs:element minOccurs="0" name="CaptionEmbedded" nillable="true" type="xs:boolean"/>
+      <xs:element minOccurs="0" name="CaptionRequired" nillable="true" type="xs:boolean"/>
+      <xs:element minOccurs="0" name="ReceivedDate" nillable="true" type="xs:dateTime"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ClosedCaption" nillable="true" type="tns:ClosedCaption"/>
+  <xs:complexType name="EditorialStatus">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="EditComplete" nillable="true" type="xs:boolean"/>
+      <xs:element minOccurs="0" name="EditCompleteDate" nillable="true" type="xs:dateTime"/>
+      <xs:element minOccurs="0" name="EditSignoff" nillable="true" type="xs:boolean"/>
+      <xs:element minOccurs="0" name="EditSignoffDate" nillable="true" type="xs:dateTime"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="EditorialStatus" nillable="true" type="tns:EditorialStatus"/>
+  <xs:complexType name="ArrayOfKeyword">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Keyword" nillable="true" type="tns:Keyword"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfKeyword" nillable="true" type="tns:ArrayOfKeyword"/>
+  <xs:complexType name="Keyword">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Code" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Keyword" nillable="true" type="tns:Keyword"/>
+  <xs:complexType name="ArrayOfPurchaseMaterialStatus">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="PurchaseMaterialStatus" nillable="true" type="tns:PurchaseMaterialStatus"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPurchaseMaterialStatus" nillable="true" type="tns:ArrayOfPurchaseMaterialStatus"/>
+  <xs:complexType name="PurchaseMaterialStatus">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DeliveryDate" nillable="true" type="xs:dateTime"/>
+      <xs:element minOccurs="0" name="DeliveryReferenceID" nillable="true" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PurchaseMaterialStatus" nillable="true" type="tns:PurchaseMaterialStatus"/>
+  <xs:complexType name="QualityControl">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="QCConclusion" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="QCConclusionUser" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="QCLevel" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="QCSignedOff" nillable="true" type="xs:boolean"/>
+      <xs:element minOccurs="0" name="QCStatus" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="QCStatusDate" nillable="true" type="xs:dateTime"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="QualityControl" nillable="true" type="tns:QualityControl"/>
+  <xs:complexType name="VersionVoiceOver">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="EndCreditsUpTC" nillable="true" type="xs:long"/>
+      <xs:element minOccurs="0" name="EndCreditsUpTCFrames" nillable="true" type="xs:long"/>
+      <xs:element minOccurs="0" name="VoiceOverOffset" nillable="true" type="xs:long"/>
+      <xs:element minOccurs="0" name="VoiceOverPossible" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="VoiceOverWindow" nillable="true" type="xs:long"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="VersionVoiceOver" nillable="true" type="tns:VersionVoiceOver"/>
+  <xs:complexType name="ArrayOfMaterial">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Material" nillable="true" type="tns:Material"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMaterial" nillable="true" type="tns:ArrayOfMaterial"/>
+  <xs:complexType name="Material">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="MaterialID" nillable="true" type="xs:int"/>
+      <xs:element minOccurs="0" name="MaterialReel" nillable="true" type="tns:ArrayOfMaterialReel"/>
+      <xs:element minOccurs="0" name="Type" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="VersionID" nillable="true" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Material" nillable="true" type="tns:Material"/>
+  <xs:complexType name="ArrayOfMaterialReel">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="MaterialReel" nillable="true" type="tns:MaterialReel"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMaterialReel" nillable="true" type="tns:ArrayOfMaterialReel"/>
+  <xs:complexType name="MaterialReel">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Active" nillable="true" type="xs:boolean"/>
+      <xs:element minOccurs="0" name="Format" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="Location" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="MaterialMetaData" nillable="true" type="tns:MaterialMetaData"/>
+      <xs:element minOccurs="0" name="MaterialPart" nillable="true" type="tns:ArrayOfMaterialPart"/>
+      <xs:element minOccurs="0" name="MediaID" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="MediaMatched" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="ReelNo" nillable="true" type="xs:int"/>
+      <xs:element minOccurs="0" name="TapeTypeID" nillable="true" type="xs:int"/>
+      <xs:element minOccurs="0" name="TotalReels" nillable="true" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MaterialReel" nillable="true" type="tns:MaterialReel"/>
+  <xs:complexType name="MaterialMetaData">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ArrivalDate" nillable="true" type="xs:dateTime"/>
+      <xs:element minOccurs="0" name="BSSMediaID" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="DeliveryChannelGroup" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="EpisodeNo" nillable="true" type="xs:int"/>
+      <xs:element minOccurs="0" name="FileName" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="MarkedAsDeleted" nillable="true" type="xs:boolean"/>
+      <xs:element minOccurs="0" name="MaterialMetaDataID" nillable="true" type="xs:int"/>
+      <xs:element minOccurs="0" name="ProductionNo" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="SeriesName" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="TemporaryMAMID" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="Title" nillable="true" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MaterialMetaData" nillable="true" type="tns:MaterialMetaData"/>
+  <xs:complexType name="ArrayOfMaterialPart">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="MaterialPart" nillable="true" type="tns:MaterialPart"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMaterialPart" nillable="true" type="tns:ArrayOfMaterialPart"/>
+  <xs:complexType name="MaterialPart">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Duration" nillable="true" type="xs:long"/>
+      <xs:element minOccurs="0" name="DurationFrame" nillable="true" type="xs:short"/>
+      <xs:element minOccurs="0" name="EndOfPart" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="MediaID" nillable="true" type="xs:int"/>
+      <xs:element minOccurs="0" name="PartNo" nillable="true" type="xs:int"/>
+      <xs:element minOccurs="0" name="SegmentTitle" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="StartOfPart" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="StartTime" nillable="true" type="xs:long"/>
+      <xs:element minOccurs="0" name="StartTimeFrame" nillable="true" type="xs:short"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MaterialPart" nillable="true" type="tns:MaterialPart"/>
+  <xs:complexType name="ArrayOfMAMRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="MAMRequest" nillable="true" type="tns:MAMRequest"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMAMRequest" nillable="true" type="tns:ArrayOfMAMRequest"/>
+  <xs:complexType name="MAMRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CreatedByUser" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="DateCompleted" nillable="true" type="xs:dateTime"/>
+      <xs:element minOccurs="0" name="DateRequired" nillable="true" type="xs:dateTime"/>
+      <xs:element minOccurs="0" name="DateTimeAcceptedByMAM" nillable="true" type="xs:dateTime"/>
+      <xs:element minOccurs="0" name="DateTimeCreated" nillable="true" type="xs:dateTime"/>
+      <xs:element minOccurs="0" name="Deleted" nillable="true" type="xs:boolean"/>
+      <xs:element minOccurs="0" name="Format" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="GenericID" nillable="true" type="xs:int"/>
+      <xs:element minOccurs="0" name="Level" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="MAMRequestID" nillable="true" type="xs:int"/>
+      <xs:element minOccurs="0" name="NoOfOutgestItems" nillable="true" type="xs:int"/>
+      <xs:element minOccurs="0" name="OutgestDestination" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="RequestedForUser" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="SourceObjectDetail" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="SourceObjectID" nillable="true" type="xs:int"/>
+      <xs:element minOccurs="0" name="SourceObjectType" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="Status" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="TargetObjectDetail" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="Type" nillable="true" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MAMRequest" nillable="true" type="tns:MAMRequest"/>
+</xs:schema>

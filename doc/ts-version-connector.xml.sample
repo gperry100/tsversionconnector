@@ -1,0 +1,6 @@
+<!-- BEGIN_INCLUDE(ts-version:greet) -->
+    <ts-version:greet config-ref="" friend="#[map-payload:friend]" />
+<!-- END_INCLUDE(ts-version:greet) -->
+<!-- BEGIN_INCLUDE(ts-version:add-entity) -->
+    <ts-version:add-entity config-ref="" key="id1"/>
+<!-- END_INCLUDE(ts-version:add-entity) -->

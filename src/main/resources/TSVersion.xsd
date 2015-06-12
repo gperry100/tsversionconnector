@@ -1,0 +1,33 @@
+<xs:schema elementFormDefault="qualified" targetNamespace="http://BSkyB.com.BSS.WCF.Traffic/TSVersion" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://BSkyB.com.BSS.WCF.Traffic/TSVersion">
+  <xs:import schemaLocation="TSVersion_1.xsd" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+  <xs:import schemaLocation="TSVersion_1_2.xsd" namespace="http://BSkyB.com.BSS.Common"/>
+  <xs:import schemaLocation="TSVersion_1_2_3.xsd" namespace="http://BSkyB.com.BSS.Contract.Traffic"/>
+  <xs:import schemaLocation="TSVersion_1_2_3_4.xsd" namespace="http://BSkyB.com.BSS.Contract.Aquisition"/>
+  <xs:element name="Get">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="versionID" nillable="true" type="q1:ArrayOfint" xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+        <xs:element minOccurs="0" name="deliveryReferenceID" nillable="true" type="q2:ArrayOfstring" xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+        <xs:element minOccurs="0" name="mediaID" nillable="true" type="q3:ArrayOfstring" xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+        <xs:element minOccurs="0" name="titleID" nillable="true" type="q4:ArrayOfint" xmlns:q4="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+        <xs:element minOccurs="0" name="purchaseID" type="xs:int"/>
+        <xs:element minOccurs="0" name="getMaterial" type="xs:boolean"/>
+        <xs:element minOccurs="0" name="getProgramme" type="xs:boolean"/>
+        <xs:element minOccurs="0" name="getMAMRequest" type="xs:boolean"/>
+        <xs:element minOccurs="0" name="endUser" nillable="true" type="q5:EndUser" xmlns:q5="http://BSkyB.com.BSS.Common"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="version" nillable="true" type="q6:ArrayOfVersion" xmlns:q6="http://BSkyB.com.BSS.Contract.Traffic"/>
+        <xs:element minOccurs="0" name="title" nillable="true" type="q7:ArrayOfTitle" xmlns:q7="http://BSkyB.com.BSS.Contract.Aquisition"/>
+        <xs:element minOccurs="0" name="series" nillable="true" type="q8:ArrayOfSeries" xmlns:q8="http://BSkyB.com.BSS.Contract.Aquisition"/>
+        <xs:element minOccurs="0" name="purchase" nillable="true" type="q9:ArrayOfPurchase" xmlns:q9="http://BSkyB.com.BSS.Contract.Aquisition"/>
+        <xs:element minOccurs="0" name="material" nillable="true" type="q10:ArrayOfMaterial" xmlns:q10="http://BSkyB.com.BSS.Contract.Traffic"/>
+        <xs:element minOccurs="0" name="MAMRequest" nillable="true" type="q11:ArrayOfMAMRequest" xmlns:q11="http://BSkyB.com.BSS.Contract.Traffic"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
